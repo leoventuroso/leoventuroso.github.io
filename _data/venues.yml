@@ -1,6 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"FPR":
+  url: https://psyjournals.ru/en/search/?searchid=2581238&text=navarini&web=0/fpr
   color: "#00369f"
+
+"FP":
+  url: https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02649/full
+  color: "#00369f"
+
+"ILR":
+  url: https://iulresearch.iuline.it/index.php/IUL-RES/article/view/135/
+  color: "#00369f"
+
+"Poster":
+  url: https://www.researchgate.net/publication/327559542_Isn't_it_lovely_Gender_differences_in_response_to_babies_and_adults_faces_of_different_ethnic_groups
+
 
 "PhysRev":
   url: https://journals.aps.org/

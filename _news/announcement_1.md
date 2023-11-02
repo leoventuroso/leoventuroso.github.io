@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-02-01 08:30:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+I've started collaborating with the Digital Commons Lab at Fondazione Bruno Kessler in a project on network analysis, sustainable mobility, and tactical urbanism in a project on network analysis, sustainable mobility, and tactical urbanism. 📍 🚲

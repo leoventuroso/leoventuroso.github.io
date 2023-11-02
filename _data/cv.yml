@@ -1,97 +1,89 @@
+
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Leonardo Venturoso
     - name: Date of Birth
-      value: 14th March 1879
+      value: 20th June 1994
     - name: Languages
-      value: English, German
+      value: Italia, English, Friulian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: MsC - Data Science
+      institution: University of Trento, Trento, Italy
+      year: 2024
+    - title: MsC - Psychology - Cognitive Neuroscience
+      institution: University of Trento, Trento, Italy
+      year: 2019
+    - title: Bachelor's degree - Cognitive Science
+      institution: University of Trento, Trento, Italy
+      year: 2016
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Data Science Researcher
+      institution: Fondazione Bruno Kessler (FBK), Trento, Italy
+      year: Mar 2023 - now
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Data Scientist and Software Developer
+      institution: AlmaViva SpA, Rovereto, Italy
+      year: Feb 2023 - now
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Data Analyst and Software Developer
+      institution: Edizioni Centro Studi Erickson, Trento, Italy
+      year: Jan 2021 - Dec 2022
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Intern and Python Developer
+      institution: Center for Mind and Brain Sciences, Rovereto, Italy
+      year: Mar 2019 - Apr 2020
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Visiting Graduate Research Student
+      institution: University of Toronto, Toronto, Canadda
+      year: Aug 2018 - Dec 2018
+
+    - title: Visiting Undergraduate Research Student
+      institution: Nanyang Technological University, Singapore, Singapore.
+      year: May 2016 - Jul 2016
+
+    - title: Research Intern - Psychophysiology
+      institution: Affiliative and Physiology Lab, Rovereto, Italy
+      year: Sep 2015 - Mar 2019
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Scholarship "International Mobility for thesis research 
+          abroad" at the University of Toronto - "International Visiting Graduate Student (IVGS) Study Abroad Program". 
+    - year: 2017
       items: 
-        - Max Planck Medal
+        - Merit Award - Issued by Università di Trento · May 2017
+    - year: 2016
+      items: 
+        - Scholarship to carry out a research period of two months (NTU Summer Internship Research)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Data Science
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Network Analysis.
+        - Machine Learning.
+        - Data Visualization.
+        - Data Modeling.
+    - title: Neuroscience.
       items:
-        - Description 1.
-        - Description 2.
+        - EEG.
+        - Eye-tracking.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Climbing, bouldering, reading, writing, wood-carving.

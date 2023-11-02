@@ -6,8 +6,8 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p style="font-size: 10px;">Trento based, from Montereale Valcellina, Friuli (Italy)</p>
 
