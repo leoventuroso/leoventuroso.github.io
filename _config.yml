@@ -133,9 +133,9 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-Giscus comments (RECOMMENDED)
-Follow instructions on https://giscus.app/ to setup for your repo to fill out
-the information below.
+#Giscus comments (RECOMMENDED)
+#Follow instructions on https://giscus.app/ to setup for your repo to fill out
+#the information below.
 giscus:
   repo:                          # <your-github-user-name>/<your-github-repo-name>
   category: Comments             # name of the category under which discussions will be created
@@ -149,7 +149,7 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
