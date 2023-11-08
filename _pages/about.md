@@ -23,8 +23,8 @@ Data Scientist and Software Developer.
 Data Science - MsC Student in the Digital Commons Lab. Fondazione Bruno Kessler, Italy
 Trained as neuroscientist, I am now working as software developer and data scientist in the RD unit at AlmaViva Spa.
 
-In AlmaViva I'm working in a remote rehabilitation project involving eye-tracking technology.
-On the other hand, my current thesis project focuses on designing and implementing a geospatial analysis tool for sustainable mobility and traffic stress related assessment.
+Specifically, I'm working in a remote rehabilitation project involving eye-tracking technology.
+While in FBK my current thesis project focuses on designing and implementing a geospatial analysis tool for sustainable mobility and traffic stress related assessment.
 
 In my spare time I love to read, write and climb (both boulder and lead). I occasionally carve wood and make mugo schnapps.
 
