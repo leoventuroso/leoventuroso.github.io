@@ -18,15 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Data Scientist and Software Developer.
+Data Scientist and Cognitive Neuroscientist
 
-Data Science - MsC Student in the Digital Commons Lab. Fondazione Bruno Kessler, Italy
-Trained as neuroscientist, I am now working as software developer and data scientist in the RD unit at AlmaViva Spa.
+I am presently employed as a Data Scientist at Fraunhofer Italia. I recently graduated in Data Science at University of Trento in 2023 with a summa cum laude distinction and a score of 110. Trained before as neuroscientist, I am now working as Data Scientist in the Sustainable Innovation team at Fraunhofer Italia.
 
-Specifically, I'm working in a remote rehabilitation project involving eye-tracking technology.
-While in FBK my current thesis project focuses on designing and implementing a geospatial analysis tool for sustainable mobility and traffic stress related assessment.
+I specialize in Machine Learning and Computer Vision applications for Flexible Production Systems.
 
-In my spare time I love to read, write and climb (both boulder and lead). I occasionally carve wood and make mugo schnapps.
+In my spare time I love to read, write and climb. I occasionally carve wood and make mugo schnapps.
 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
