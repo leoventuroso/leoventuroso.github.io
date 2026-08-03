@@ -262,8 +262,9 @@ footer {
 
 .footer-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 2rem;
   color: var(--color-muted);
   list-style: none;
@@ -289,11 +290,6 @@ footer {
   .post-content {
     flex-direction: row;
     gap: 0.5rem;
-  }
-
-  .footer-links {
-    flex-direction: row;
-    gap: 1rem;
   }
 
   .talks .post-content {
