@@ -6,7 +6,7 @@ Hide_title: true
 <img style="width:70%;margin-top:-10px;filter: invert(var(--image-filtering));" class="logo" src="{static}/images/logo-resized.jpg" alt="logo.png">
 </center>
 
-Hi, I'm Leonardo (`leh-oh-NAR-doh`),
+Hi, I'm Leonardo,
 
 I'm a data scientist, born and raised at the foot of the Friulian Dolomites (Italy), where I grew up speaking [Friulian](https://en.wikipedia.org/wiki/Friulian_language) at home, now based in Bolzano/Bozen (Italy). I work as an Applied AI Researcher at [Fraunhofer Italia](https://www.fraunhofer.it/), working on computer vision, machine learning, multimodal imaging, and graph neural networks, with a strong focus on reproducible research and open data. I'm also drawn to human-centered technology: adaptive industrial workstations that integrate eye-tracking, gesture tracking, and assistive technologies for inclusive manufacturing environments. I'm in love with Technology, and how it can improve people's lives.
 

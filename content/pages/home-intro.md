@@ -2,7 +2,7 @@ Title: home intro
 Slug: home-intro
 Status: hidden
 
-Hi, I'm Leonardo (`leh-oh-NAR-doh`), a data scientist born and raised at the foot of the Friulian Dolomites (Italy), now based in Bolzano.
+Hi, I'm Leonardo, a data scientist born and raised at the foot of the Friulian Dolomites (Italy), now based in Bolzano.
 
 At [Fraunhofer Italia](https://www.fraunhofer.it/), my work spans ML/CV/AI, Data, and Software, always centered on people.
 
