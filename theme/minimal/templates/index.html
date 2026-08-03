@@ -9,6 +9,7 @@
   {% endif %}
 {% endfor %}
 
+<h2 class="section-label"><a href="{{ SITEURL }}/blog/">latest blog articles</a></h2>
 <div class="posts">
   {% for article in articles[:RECENT_ARTICLES_COUNT] %}
   <a class="post-link" href="{{ SITEURL }}/{{ article.url }}">
