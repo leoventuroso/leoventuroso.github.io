@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block nav_active %}home{% endblock %}
+{% block content %}
+
+<h1>{{ AUTHOR }}</h1>
+{% for hp in hidden_pages %}
+  {% if hp.slug == HOME_INTRO_SLUG %}
+  <div class="prose intro-block">{{ hp.content }}</div>
+  {% endif %}
+{% endfor %}
+
+<div class="posts">
+  {% for article in articles[:RECENT_ARTICLES_COUNT] %}
+  <a class="post-link" href="{{ SITEURL }}/{{ article.url }}">
+    <div class="post-content">
+      <p class="post-date">{{ article.date.strftime('%d-%m-%Y') }}</p>
+      <p class="post-title">{{ article.title }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% if articles|length > RECENT_ARTICLES_COUNT %}<p class="see-all"><a href="{{ SITEURL }}/blog/">all posts &rarr;</a></p>{% endif %}
+
+<h2 class="section-label"><a href="{{ SITEURL }}/publications/">selected publications</a></h2>
+<div class="posts">
+  {% for pub in selected_publications %}
+  <div class="pub-content">
+    <p class="pub-title-inline">{{ pub.title }}</p>
+    <p class="pub-meta">{{ pub.authors }} — <em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+  </div>
+  {% endfor %}
+</div>
+<p class="see-all"><a href="{{ SITEURL }}/publications/">all publications &rarr;</a></p>
+
+{% endblock %}

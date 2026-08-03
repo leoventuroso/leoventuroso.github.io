@@ -1,0 +1,72 @@
+# Each entry: a title, and a list of labeled links (venue, Slides, Video,
+# Podcast, ...). Order newest first. Example:
+#
+# - title: "Talk title"
+#   links:
+#     - label: "Venue name"
+#       url: "https://example.com/"
+#     - label: "Slides"
+#       url: "/pdf/my-slides.pdf"
+#     - label: "Video"
+#       url: "https://youtu.be/..."
+
+- title: "LTS-BikePlan: dati aperti a supporto della rete ciclabile"
+  links:
+    - label: "Padova Climate Action Week"
+      url: "https://www.padovaclimateactionweek.org/it/eventi/tutti/padova-in-movimento-nuove-idee-per-una-mobilita-piu-sostenibile"
+    - label: "Slides"
+      url: "/pdf/PD_ClimateWeek_Venturoso_FHI.pdf"
+
+- title: "OpenStreetMap: integrare percorsi culturali/scientifici/geografici"
+  links:
+    - label: "PN Linux Day 2025"
+      url: "https://www.pnlug.it/linux-day-2025/"
+    - label: "Slides"
+      url: "/pdf/PN_LinuxDay_Venturoso.pdf"
+
+- title: "AI Smart Workstation for Industrial Quality Control"
+  links:
+    - label: "WGAB-Forschungsseminar 2025"
+      url: "https://www.apf.ruhr-uni-bochum.de/2025/10/rueckblick-wgab-forschungsseminar-2025-in-hamburg/"
+    - label: "HAB"
+      url: "http://www.hab-online.org/"
+    - label: "Slides"
+      url: "/pdf/WGAB_Hamburg_2025_Leonardo_Venturoso.pdf"
+
+- title: "Premio Tesi Città di Bolzano 2024 (Winner)"
+  links:
+    - label: "Comune di Bolzano/Bozen"
+      url: "https://diritto-allo-studio.provincia.bz.it/it/news/premio-citta-di-bolzano-la-migliore-tesi-di-laurea-1-edizione-2024"
+    - label: "News coverage by RAI TGR AA"
+      url: "https://www.rainews.it/tgr/bolzano/video/2025/04/bici-trento-bolzano-ciclabili-laurea-tesi-ricerca-openmap-open-data-c6e26373-6399-43a8-aef6-3ad406df33af.html"
+    - label: "Slides"
+      url: "/pdf/Leonardo_Venturoso_Presentation_Thesis.pdf"
+
+- title: "Alpine Convention Young Academics Award 2024 (Finalist)"
+  links:
+    - label: "Alpine Convention"
+      url: "https://www.alpconv.org/en/"
+    - label: "Young Academics Award 2024"
+      url: "https://www.alpconv.org/it/home/progetti/young-academics-award/young-academics-award-2024/"
+    - label: "Slides"
+      url: "/pdf/Leonardo_Venturoso_Thesis_Presentation_Alpine_Convention.pdf"
+
+- title: "Safe and accessible cycling/I want to ride my bicycle, I want to ride it safe"
+  links:
+    - label: "Science Slam 2024"
+      url: "https://www.scienceslam.it/en"
+    - label: "Slides"
+      url: "/pdf/Safe%20and%20Accessible%20Cycling.pdf"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=o0ORy7-L-9Y"
+
+- title: "Real-time Traffic Prediction in Bolzano Using Bluetooth Sensor Data: A Big Data Approach"
+  links:
+    - label: "Open Data Hub Day 2024"
+      url: "https://opendatahub.com/events/odhday24/"
+    - label: "Slides"
+      url: "https://cloud.opendatahub.com/index.php/s/ckbfqN4tKb5zb8f?dir=/&editing=false&openfile=true"
+    - label: "Video"
+      url: "https://vimeo.com/954324498?turnstile=1.nXmb0RVG94CiRfPPlg1uEn0tXycW5LqMiQmvw7jkLptVSJ_xISIUVUxAjAEIpWLykoBIEeEYMi05UMIZ8RIzoujOPEkMlsq3WAPHbS5x1UWTG_8oN8ALLNakCE4UkeQpHVZ6WXM5twbK7fpEOq0VdF2dBvqB1FNWOdhfOW9sL3W0nsS-BM-iMnpIKXZbhGFObwxg7qmcr1nvmWWZI2cRiODukMMHbLEu9V801BRmdhCvzrDtIPAN-n-LYfiXqa_oNHCXqPBskKMsadAfHWlUpYJh1PsJVgxv0OCJw2JKTPOEqvu4tj6IZWTzYVBcPDbCPHWRX8sxn462_Yp6kb5TTgv-yaoXAV6tG6jM3gC3ScfyoDzVz1o6DTf5Wk6zfxlR-DWTc7RnxcDev69lplkbeJXiOj_S13jaYBFTBinWV7AlcARS_KSp_BjhwVVoj_Nvgj03nXalAmooZCuWvcVwmHKfWfLtWdE_yf55f-_uE7kX63hHoGH0YDZP79TFIJxytFFKzBpFVModV0a0sFVYv6Wx3Iaf4WrJ_046U6uVpu6WgnC_ajW2wQG5TTGqgyqexSFQGlkoW6gbVPvfEW6d_I7j8fWYKVWHzDFTVD3G7Ig.zo73gF57RGuQ08E3Bt37ag.d1add01dfe3855a96467505e2806b63dafa75222d6dbd780f0bc66bc88508edf"
+
+

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}writing — {{ SITENAME }}{% endblock %}
+{% block nav_active %}{% endblock %}
+{% block content %}
+<h1 class="sr-only">writing</h1>
+<div class="posts">
+  {% for article in dates %}
+  <a class="post-link" href="{{ SITEURL }}/{{ article.url }}">
+    <div class="post-content">
+      <p class="post-date">{{ article.date.strftime('%d-%m-%Y') }}</p>
+      <p class="post-title">{{ article.title }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

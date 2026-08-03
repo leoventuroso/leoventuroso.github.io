@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — {{ SITENAME }}{% endblock %}
+{% block nav_active %}{{ page.slug }}{% endblock %}
+{% block content %}
+<article>
+  {% if page.hide_title %}<h1 class="sr-only">{{ page.title }}</h1>{% else %}<h1>{{ page.title }}</h1>{% endif %}
+  <div class="prose">
+    {% if page.photo %}
+    <p class="photo-wrap"><img class="about-photo" src="{{ SITEURL }}/{{ page.photo }}" alt="{{ AUTHOR }}"></p>
+    {% endif %}
+    {{ page.content }}
+  </div>
+</article>
+{% endblock %}

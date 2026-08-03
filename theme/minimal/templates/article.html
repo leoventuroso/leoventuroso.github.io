@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} — {{ SITENAME }}{% endblock %}
+{% block nav_active %}{% endblock %}
+{% block content %}
+<article>
+  <h1 class="title">{{ article.title }}</h1>
+  <div class="meta">
+    <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%B %-d, %Y') }}</time>
+  </div>
+  <div class="prose">
+    {{ article.content }}
+  </div>
+  <p class="see-all"><a href="{{ SITEURL }}/blog/">&larr; back to writing</a></p>
+</article>
+{% endblock %}

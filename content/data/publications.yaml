@@ -1,0 +1,112 @@
+- id: venturoso2026lts
+  year: 2026
+  title: "LTS-BikePlan: A Data-Driven Tool for Enhancing Cycling Infrastructure and Safety"
+  authors: "Leonardo Venturoso, Munazza Usmani, Riccardo Nanni, and Maurizio Napolitano"
+  venue: "Journal of Urban Technology"
+  selected: true
+  badge:
+    label: "JUT"
+    url: "https://doi.org/10.1080/10630732.2026.2639290"
+  bibtex: |
+    @article{venturoso2026lts,
+      title = {LTS-BikePlan: A Data-Driven Tool for Enhancing Cycling Infrastructure and Safety},
+      author = {Venturoso, Leonardo and Usmani, Munazza and Nanni, Riccardo and Napolitano, Maurizio},
+      journal = {Journal of Urban Technology},
+      pages = {1--42},
+      year = {2026},
+      publisher = {Taylor \& Francis},
+    }
+
+- id: venturoso2025ki
+  year: 2025
+  title: "KI-gestützte Workstation für die Qualitätskontrolle"
+  authors: "Leonardo Venturoso, Simone Garbin, Dieter Steiner, and Dominik T Matt"
+  venue: "Industry 4.0 Science"
+  selected: false
+  badge:
+    label: "I4S"
+    url: "https://doi.org/10.30844/I4SD.25.5.128"
+  bibtex: |
+    @article{venturoso2025ki,
+      title = {KI-gest{\"u}tzte Workstation f{\"u}r die Qualit{\"a}tskontrolle},
+      author = {Venturoso, Leonardo and Garbin, Simone and Steiner, Dieter and Matt, Dominik T},
+      journal = {Industry 4.0 Science},
+      volume = {41},
+      number = {5},
+      pages = {128--134},
+      year = {2025},
+      publisher = {GITO mbH Verlag f{\"u}r Industrielle Informationstechnik und Organisation~…},
+    }
+
+- id: ianes2021learn
+  year: 2021
+  title: "Learn by distance: advice for choosing an effective and inclusive e-Learning platform"
+  authors: "Dario Ianes, and Leonardo Venturoso"
+  venue: "IUL Research"
+  selected: false
+  badge:
+    label: "ILR"
+    url: "https://iulresearch.iuline.it/index.php/IUL-RES/article/view/135/"
+  bibtex: |
+    @article{ianes2021learn,
+      title = {Learn by distance: advice for choosing an effective and inclusive e-Learning platform},
+      author = {Ianes, Dario and Venturoso, Leonardo},
+      journal = {IUL Research},
+      volume = {2},
+      number = {3},
+      year = {2021},
+    }
+
+- id: navarini2021influence
+  year: 2021
+  title: "THE INFLUENCE OF BABY SCHEMA EFFECT AND MERE EXPOSURE EFFECT ON IMPLICIT AND EXPLICIT FACE PROCESSING: A FOLLOW-UP STUDY."
+  authors: "Nora Navarini, Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, Mengyu Lim, Peipei Setoh, and Gianluca Esposito"
+  venue: "Experimental Psychology"
+  selected: false
+  badge:
+    label: "FPR"
+    url: "https://psyjournals.ru/en/search/?searchid=2581238&text=navarini&web=0/fpr"
+  bibtex: |
+    @article{navarini2021influence,
+      title = {THE INFLUENCE OF BABY SCHEMA EFFECT AND MERE EXPOSURE EFFECT ON IMPLICIT AND EXPLICIT FACE PROCESSING: A FOLLOW-UP STUDY.},
+      author = {Navarini, Nora and Venturoso, Leonardo and Gabrieli, Giulio and Truzzi, Anna and Lim, Mengyu and Setoh, Peipei and Esposito, Gianluca},
+      journal = {Experimental Psychology},
+      volume = {14},
+      number = {2},
+      year = {2021},
+    }
+
+- id: venturoso2019effects
+  year: 2019
+  title: "Effects of baby schema and mere exposure on explicit and implicit face processing"
+  authors: "Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, Atiqah Azhari, Peipei Setoh, Marc H Bornstein, and Gianluca Esposito"
+  venue: "Frontiers in Psychology"
+  selected: false
+  badge:
+    label: "FP"
+    url: "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02649/full"
+  bibtex: |
+    @article{venturoso2019effects,
+      title = {Effects of baby schema and mere exposure on explicit and implicit face processing},
+      author = {Venturoso, Leonardo and Gabrieli, Giulio and Truzzi, Anna and Azhari, Atiqah and Setoh, Peipei and Bornstein, Marc H and Esposito, Gianluca},
+      journal = {Frontiers in psychology},
+      pages = {2649},
+      year = {2019},
+      publisher = {Frontiers},
+    }
+
+- id: venturosoisn
+  year: 2018
+  title: "“Isn't it lovely?”: Gender differences in response to babies and adults faces of different ethnic groups"
+  authors: "Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, and Gianluca Esposito"
+  venue: "Poster"
+  selected: false
+  badge:
+    label: "Poster"
+    url: "https://www.researchgate.net/publication/327559542_Isn't_it_lovely_Gender_differences_in_response_to_babies_and_adults_faces_of_different_ethnic_groups"
+  bibtex: |
+    @article{venturosoisn,
+      title = {"Isn't it lovely?": Gender differences in response to babies and adults faces of different ethnic groups},
+      author = {Venturoso, Leonardo and Gabrieli, Giulio and Truzzi, Anna and Esposito, Gianluca},
+      year = {2018},
+    }

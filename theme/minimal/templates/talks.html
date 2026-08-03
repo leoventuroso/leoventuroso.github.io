@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}talks — {{ SITENAME }}{% endblock %}
+{% block nav_active %}talks{% endblock %}
+{% block content %}
+<h1 class="sr-only">talks</h1>
+<div class="posts talks">
+  {% for talk in talks %}
+  <div class="post-link">
+    <div class="post-content">
+      <p class="post-title">{{ talk.title }}</p>
+      <p class="post-date">
+        {% for link in talk.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

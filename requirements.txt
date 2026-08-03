@@ -1,0 +1,4 @@
+pelican[markdown]==4.9.1
+pyyaml==6.0.2
+pelican-sitemap==1.0.2
+pytz==2024.2

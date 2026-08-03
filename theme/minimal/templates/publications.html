@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}publications — {{ SITENAME }}{% endblock %}
+{% block nav_active %}publications{% endblock %}
+{% block content %}
+<h1>publications</h1>
+{% for year, entries in publications_by_year.items() %}
+<h2 class="section-label pub-year">{{ year }}</h2>
+<div class="posts pub-list">
+  {% for pub in entries %}
+  <div class="pub-entry">
+    {% if pub.badge %}<a class="pub-badge" href="{{ pub.badge.url }}" target="_blank" rel="noopener">{{ pub.badge.label }}</a>{% endif %}
+    <div class="pub-body">
+      <p class="pub-title-inline">{{ pub.title }}</p>
+      <p class="pub-meta">{{ pub.authors }}</p>
+      <p class="pub-meta"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+      {% if pub.bibtex %}
+      <details class="pub-bibtex">
+        <summary>BibTeX</summary>
+        <pre>{{ pub.bibtex }}</pre>
+      </details>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endblock %}
