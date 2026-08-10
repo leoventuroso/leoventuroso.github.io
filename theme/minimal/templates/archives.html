@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}writing — {{ SITENAME }}{% endblock %}
-{% block nav_active %}{% endblock %}
+{% block title %}blog — {{ SITENAME }}{% endblock %}
+{% block nav_active %}blog{% endblock %}
 {% block content %}
-<h1 class="sr-only">writing</h1>
+<h1>blog</h1>
 <div class="posts">
   {% for article in dates %}
   <a class="post-link" href="{{ SITEURL }}/{{ article.url }}">

@@ -74,6 +74,7 @@ MENUITEMS = [
     ("publications", "/publications/"),
     ("cv", "/pdf/LeonardoVenturoso_CV.pdf"),
     ("talks", "/talks/"),
+    ("blog", "/blog/"),
     ("newsletter", "https://substack.com/@leonardoventuroso"),
 ]
 
