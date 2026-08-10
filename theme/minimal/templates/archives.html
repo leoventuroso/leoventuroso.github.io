@@ -2,7 +2,7 @@
 {% block title %}blog — {{ SITENAME }}{% endblock %}
 {% block nav_active %}blog{% endblock %}
 {% block content %}
-<h1>blog</h1>
+<h1 class="sr-only">blog</h1>
 <div class="posts">
   {% for article in dates %}
   <a class="post-link" href="{{ SITEURL }}/{{ article.url }}">

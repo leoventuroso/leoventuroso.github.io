@@ -2,7 +2,7 @@
 {% block title %}publications — {{ SITENAME }}{% endblock %}
 {% block nav_active %}publications{% endblock %}
 {% block content %}
-<h1>publications</h1>
+<h1 class="sr-only">publications</h1>
 {% for year, entries in publications_by_year.items() %}
 <h2 class="section-label pub-year">{{ year }}</h2>
 <div class="posts pub-list">
