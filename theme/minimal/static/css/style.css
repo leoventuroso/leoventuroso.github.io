@@ -285,6 +285,24 @@ footer {
   color: var(--color-hover);
 }
 
+.footer-note {
+  margin-top: 0.75rem;
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.footer-note a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s;
+}
+
+.footer-note a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .post-content {

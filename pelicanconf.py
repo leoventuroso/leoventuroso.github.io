@@ -101,9 +101,16 @@ def _obfuscate_mailto(address):
 SOCIAL = [
     ("email", _obfuscate_mailto("leo.venturoso@gmail.com")),
     ("github", "https://github.com/leoventuroso"),
+    ("huggingface", "https://huggingface.co/leoventu"),
     ("linkedin", "https://www.linkedin.com/in/leonardo-venturoso"),
     ("scholar", "https://scholar.google.com/citations?user=QR6Q6eIAAAAJ&hl=it&oi=ao"),
+    ("researchgate", "https://www.researchgate.net/profile/Leonardo-Venturoso"),
+    ("orcid", "https://orcid.org/my-orcid?orcid=0000-0001-7789-2412"),
 ]
+
+# Source repo link + credit shown under the footer social icons.
+SITE_REPO = "https://github.com/leoventuroso/leoventuroso.github.io"
+INSPIRED_BY = ("Duarte O. Carmo", "https://github.com/duarteocarmo/duarteocarmo.com")
 
 # Kept off in dev for faster rebuilds; publishconf.py turns these on.
 FEED_ALL_ATOM = None
