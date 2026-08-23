@@ -297,6 +297,7 @@ footer {
   text-decoration: underline;
   text-decoration-color: transparent;
   transition: text-decoration-color 0.15s;
+  white-space: nowrap;
 }
 
 .footer-note a:hover {
