@@ -22,4 +22,4 @@ So the acquisition setup turned out to matter almost as much as the model itself
 
 Then came another problem: what happens when the camera moves? We tested the models on a close-range dataset acquired at around 10 cm from the weld, corresponding to the geometry expected for a robot-mounted camera. This was probably the clearest difference we found between the architectures: transformer-based models, especially RF-DETR, retained high accuracy, while the CNN models struggled to generalize to the new viewpoint.
 
-The preprint is now available on arXiv: https://arxiv.org/abs/2608.25465
+The preprint is now available [here](https://arxiv.org/abs/2608.25465)
