@@ -1,3 +1,20 @@
+- id: garbin2026automatic
+  year: 2026
+  title: "Automatic weld seam segmentation for industrial quality control: a comparison of RGB and polarimetric imaging with CNN and transformer architectures"
+  authors: "Simone Garbin, Leonardo Venturoso, and Marco Todescato"
+  venue: "arXiv preprint"
+  selected: false
+  badge:
+    label: "arXiv"
+    url: "https://arxiv.org/abs/2608.25465"
+  bibtex: |
+    @article{garbin2026automatic,
+      title = {Automatic weld seam segmentation for industrial quality control: a comparison of RGB and polarimetric imaging with CNN and transformer architectures},
+      author = {Garbin, Simone and Venturoso, Leonardo and Todescato, Marco},
+      journal = {arXiv preprint arXiv:2608.25465},
+      year = {2026},
+    }
+
 - id: venturoso2026lts
   year: 2026
   title: "LTS-BikePlan: A Data-Driven Tool for Enhancing Cycling Infrastructure and Safety"
@@ -16,6 +33,7 @@
       year = {2026},
       publisher = {Taylor \& Francis},
     }
+
 
 - id: venturoso2025ki
   year: 2025

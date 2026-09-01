@@ -78,7 +78,7 @@ MENUITEMS = [
     ("newsletter", "https://substack.com/@leonardoventuroso"),
 ]
 
-RECENT_ARTICLES_COUNT = 6
+RECENT_ARTICLES_COUNT = 4
 
 # The homepage bio is authored as a hidden page (content/pages/home-intro.md)
 # rather than a plain-text setting, so it can use Markdown links and a
