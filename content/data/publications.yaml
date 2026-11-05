@@ -112,19 +112,3 @@
       year = {2019},
       publisher = {Frontiers},
     }
-
-- id: venturosoisn
-  year: 2018
-  title: "“Isn't it lovely?”: Gender differences in response to babies and adults faces of different ethnic groups"
-  authors: "Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, and Gianluca Esposito"
-  venue: "Poster"
-  selected: false
-  badge:
-    label: "Poster"
-    url: "https://www.researchgate.net/publication/327559542_Isn't_it_lovely_Gender_differences_in_response_to_babies_and_adults_faces_of_different_ethnic_groups"
-  bibtex: |
-    @article{venturosoisn,
-      title = {"Isn't it lovely?": Gender differences in response to babies and adults faces of different ethnic groups},
-      author = {Venturoso, Leonardo and Gabrieli, Giulio and Truzzi, Anna and Esposito, Gianluca},
-      year = {2018},
-    }
