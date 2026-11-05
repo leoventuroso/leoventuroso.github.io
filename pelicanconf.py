@@ -1,3 +1,6 @@
+import hashlib
+from pathlib import Path
+
 AUTHOR = "Leonardo Venturoso"
 SITENAME = "Leonardo Venturoso"
 SITEURL = ""
@@ -7,6 +10,13 @@ TIMEZONE = "Europe/Rome"
 DEFAULT_LANG = "en"
 
 THEME = "theme/minimal"
+
+# Cache busting: base.html links style.css?v=<hash of its content>, so
+# browsers fetch the new stylesheet as soon as it changes instead of
+# reusing a stale cached copy with freshly deployed HTML.
+STYLE_VERSION = hashlib.sha256(
+    Path(__file__).resolve().parent.joinpath(THEME, "static/css/style.css").read_bytes()
+).hexdigest()[:10]
 
 ARTICLE_PATHS = ["articles"]
 ARTICLE_URL = "blog/{slug}/"

@@ -7,7 +7,7 @@
 <meta name="description" content="{{ AUTHOR }} — Data Scientist and Cognitive Neuroscientist.">
 <meta name="author" content="{{ AUTHOR }}">
 <link rel="icon" type="image/svg+xml" href="{{ SITEURL }}/images/favicon.svg">
-<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css{% if STYLE_VERSION %}?v={{ STYLE_VERSION }}{% endif %}">
 {% if FEED_ALL_ATOM %}<link rel="alternate" type="application/atom+xml" title="{{ SITENAME }} Atom Feed" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">{% endif %}
 <!-- {% block nav_active %}{% endblock %} -->
 </head>
