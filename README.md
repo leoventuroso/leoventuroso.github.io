@@ -9,7 +9,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-make devserver   # autoreloading dev server at http://localhost:8000
+make devserver   # autoreloading dev server at http://localhost:8500
 ```
 
 Other targets:
@@ -17,7 +17,7 @@ Other targets:
 ```sh
 make html      # build with pelicanconf.py (relative URLs, no feed)
 make publish   # build with publishconf.py (absolute URLs, feed, sitemap)
-make serve     # serve an already-built output/ at http://localhost:8000
+make serve     # serve an already-built output/ at http://localhost:8500
 make clean     # remove output/
 ```
 
