@@ -326,6 +326,10 @@
   }
 
   function bindNode(g, i) {
+    // Mobile browsers ignore `touch-action` on elements inside an SVG and
+    // turn a drag into a page scroll (cancelling the pointer); block the
+    // scroll only for touches that start on a node.
+    g.addEventListener('touchstart', function (ev) { ev.preventDefault(); }, { passive: false });
     g.addEventListener('pointerdown', function (ev) {
       if (ev.button !== 0) return;
       g.setPointerCapture(ev.pointerId);
