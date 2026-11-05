@@ -364,7 +364,7 @@ footer {
 }
 
 /* Publications timeline (pub-graph.js): drawn inside the text column,
-   caption in the right margin on wide screens (like blog figures). */
+   caption underneath. */
 .pub-graph {
   position: relative;
   margin: 0 0 2.5rem;
@@ -392,16 +392,6 @@ footer {
   font-size: 14px;
   line-height: 1.3rem;
   color: var(--color-muted);
-}
-
-@media (min-width: 68rem) {
-  .pub-graph figcaption {
-    position: absolute;
-    top: 0;
-    right: -16rem;
-    width: 14rem;
-    margin: 0;
-  }
 }
 
 .pg-axis-line,
