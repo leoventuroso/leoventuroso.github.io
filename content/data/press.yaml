@@ -1,0 +1,64 @@
+# Press coverage, grouped by project (most recent project first).
+# Each project has a short description, its own links, and an optional
+# `coverage` list of articles (newest first). `date` is a display string.
+# `description` may contain HTML links.
+#
+# - project: "Project name"
+#   description: "One sentence."
+#   links:
+#     - label: "Website"
+#       url: "https://example.com/"
+#   coverage:
+#     - outlet: "Newspaper"
+#       title: "Headline, verbatim"
+#       date: "17-09-2026"
+#       url: "https://..."
+
+- project: "Stress in bici"
+  description: 'An experimental map that rates the whole Italian road network by Level of Traffic Stress. It was developed mainly by <a href="https://github.com/napo">Maurizio Napolitano</a> at FBK, building on my master''s thesis and LTS-BikePlan.'
+  links:
+    - label: "stressinbici.it"
+      url: "https://stressinbici.it/"
+    - label: "GitHub"
+      url: "https://github.com/dclfbk/LTSBikePlan"
+  coverage:
+    - outlet: "salto.bz"
+      title: "Bolzano con meno stress in bici"
+      date: "25-09-2026"
+      url: "https://salto.bz/it/article/25092026/bolzano-e-meno-stress-bici"
+    - outlet: "TV33"
+      title: "Stress in bici? ecco la mappa trentina (e non solo) per monitorare il benessere dei ciclisti"
+      date: "23-09-2026"
+      url: "https://www.tv33.it/news/stress-in-bici-ecco-la-mappa-trentina-e-non-solo-per-monitorare-il-benessere-dei-ciclisti"
+    - outlet: "l'Adige"
+      title: "In bici, quali sono le strade più stressanti? La mappa di Fbk misura i percorsi in tutta Italia"
+      date: "17-09-2026"
+      url: "https://www.ladige.it/territori/trento/in-bici-quali-sono-le-strade-piu-stressanti-la-mappa-di-fbk-misura-i-percorsi-in-tutta-italia-kvribo87"
+    - outlet: "il Dolomiti"
+      title: "Quali strade sono più \"stressanti\" per chi si muove in bici? Ecco la mappa sperimentale di Fbk per valutare i percorsi da affrontare pedalando"
+      date: "17-09-2026"
+      url: "https://www.ildolomiti.it/cronaca/2026/quali-strade-sono-piu-stressanti-per-chi-si-muove-in-bici-ecco-la-mappa-sperimentale-di-fbk-per-valutare-i-percorsi-da-affrontare-pedalando"
+    - outlet: "FBK Magazine"
+      title: "Stress-in-bici: la mappa che valuta la strada dalla prospettiva di chi pedala"
+      date: "17-09-2026"
+      url: "https://magazine.fbk.eu/it/news/stress-in-bici-la-mappa-che-valuta-la-strada-dalla-prospettiva-di-chi-pedala/"
+    - outlet: "30science.com"
+      title: "Stress in bici, una mappa mostra le strade migliori per pedalare"
+      date: "17-09-2026"
+      url: "https://30science.com/2026/09/news/stress-in-bici-una-mappa-mostra-le-strade-migliori-per-pedalare/"
+
+- project: "Mappa Civica"
+  description: "An open-source civic-tech platform for sustainable mobility, environmental monitoring, territorial resilience and community reporting, built with Emanuele Nardi and live for the comune of Montereale Valcellina."
+  links:
+    - label: "mappa-civica.vercel.app"
+      url: "https://mappa-civica.vercel.app/"
+    - label: "GitHub"
+      url: "https://github.com/BeneComune/mappa-civica"
+    - label: "Write-up"
+      url: "https://leonardoventuroso.substack.com/p/i-got-tired-of-hunting-for-public"
+  coverage:
+    # Print only, no online version: links to a crop of the scanned page.
+    - outlet: "Il Gazzettino, print edition"
+      title: "Emergenze, ecco l'app che guida i soccorritori"
+      date: "02-10-2026"
+      url: "/images/mappa_civica_gazzettino.jpg"

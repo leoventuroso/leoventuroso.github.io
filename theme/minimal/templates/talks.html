@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-{% block title %}talks{% endblock %}
-{% block nav_active %}talks{% endblock %}
+{% block title %}talks &amp; press{% endblock %}
+{% block nav_active %}talks & press{% endblock %}
 {% block content %}
-<h1 class="sr-only">talks</h1>
+<h1 class="sr-only">talks &amp; press</h1>
+
+<h2 class="section-label section-label-first">talks</h2>
 <div class="posts talks">
   {% for talk in talks %}
   <div class="post-link">
@@ -15,4 +17,31 @@
   </div>
   {% endfor %}
 </div>
+
+{% if press %}
+<h2 class="section-label">press</h2>
+<div class="posts">
+  {% for item in press %}
+  <div class="press-project">
+    <p class="post-title">{{ item.project }}</p>
+    <p class="pub-meta">{{ item.description|safe }}</p>
+    <p class="post-date">
+      {% for link in item.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+    </p>
+    {% if item.coverage %}
+    <ul class="press-coverage">
+      {% for article in item.coverage %}
+      <li>
+        <a class="post-content" href="{{ article.url }}" target="_blank" rel="noopener">
+          <span class="post-date">{{ article.date }}</span>
+          <span class="press-headline">{{ article.title }} <span class="press-outlet">{{ article.outlet }}</span></span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 {% endblock %}

@@ -47,9 +47,10 @@ DEFAULT_PAGINATION = False
 DELETE_OUTPUT_DIRECTORY = True
 
 # publications.py / talks.py plugins read these files and inject
-# `publications_by_year` / `talks` into the template context of every page.
+# `publications_by_year` / `talks` / `press` into the template context of every page.
 PUBLICATIONS_DATA = "content/data/publications.yaml"
 TALKS_DATA = "content/data/talks.yaml"
+PRESS_DATA = "content/data/press.yaml"
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["publications", "talks", "sidenotes", "pelican.plugins.sitemap"]
@@ -73,7 +74,7 @@ MENUITEMS = [
     ("about", "/about/"),
     ("publications", "/publications/"),
     ("cv", "/pdf/LeonardoVenturoso_CV.pdf"),
-    ("talks", "/talks/"),
+    ("talks & press", "/talks/"),
     ("blog", "/blog/"),
     ("newsletter", "https://substack.com/@leonardoventuroso"),
 ]
