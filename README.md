@@ -50,6 +50,31 @@ make clean     # remove output/
 5. Save, then check it locally: `make devserver`, open `http://localhost:8500/talks/`.
 6. Commit and push — no other file needs touching.
 
+### Sidenotes, margin notes and figures in blog posts
+
+Blog posts get a Tufte-style layout (scoped to `.blog-post` in `style.css`, site font unchanged). Notes are written as standard Markdown footnotes; `plugins/sidenotes.py` turns them into sidenotes on the article page only (the feed keeps plain footnotes):
+
+```markdown
+A claim.[^1] A remark.[^m-photo]
+
+[^1]: Numbered sidenote, shown in the right margin on wide screens, tap-to-reveal on mobile.
+[^m-photo]: Labels starting with `m-` become unnumbered margin notes.
+```
+
+Keep notes inline (text, links, emphasis, inline code); multiple paragraphs are joined with a line break. Figures:
+
+```markdown
+<figure markdown="1">
+![Alt text]({static}/images/example.jpg)
+<figcaption>Caption shown in the margin on wide screens.</figcaption>
+</figure>
+
+<figure class="fullwidth" markdown="1">
+![Alt text]({static}/images/wide.jpg)
+<figcaption>Full-width figure, up to 60rem.</figcaption>
+</figure>
+```
+
 ## Deployment
 
 Pushing to `master` triggers `.github/workflows/pages.yml`, which builds the site with Pelican and publishes it via GitHub Pages' "Actions" deployment source (Settings → Pages → Source: GitHub Actions). No `gh-pages` branch, no generated HTML committed to git.

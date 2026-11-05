@@ -52,7 +52,7 @@ PUBLICATIONS_DATA = "content/data/publications.yaml"
 TALKS_DATA = "content/data/talks.yaml"
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["publications", "talks", "pelican.plugins.sitemap"]
+PLUGINS = ["publications", "talks", "sidenotes", "pelican.plugins.sitemap"]
 
 SITEMAP = {
     "format": "xml",

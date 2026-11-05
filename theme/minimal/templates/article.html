@@ -2,13 +2,13 @@
 {% block title %}{{ article.title }} — {{ SITENAME }}{% endblock %}
 {% block nav_active %}{% endblock %}
 {% block content %}
-<article>
+<article class="blog-post">
   <h1 class="title">{{ article.title }}</h1>
   <div class="meta">
     <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%B %-d, %Y') }}</time>
   </div>
   <div class="prose">
-    {{ article.content }}
+    {{ article.content|sidenotes }}
   </div>
   <p class="see-all"><a href="{{ SITEURL }}/blog/">&larr; back to blog</a></p>
 </article>
