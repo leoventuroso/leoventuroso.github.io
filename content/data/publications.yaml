@@ -1,5 +1,6 @@
 - id: garbin2026automatic
   year: 2026
+  theme: industrial
   title: "Automatic weld seam segmentation for industrial quality control: a comparison of RGB and polarimetric imaging with CNN and transformer architectures"
   authors: "Simone Garbin, Leonardo Venturoso, and Marco Todescato"
   venue: "arXiv preprint"
@@ -17,6 +18,7 @@
 
 - id: venturoso2026lts
   year: 2026
+  theme: opendata
   title: "LTS-BikePlan: A Data-Driven Tool for Enhancing Cycling Infrastructure and Safety"
   authors: "Leonardo Venturoso, Munazza Usmani, Riccardo Nanni, and Maurizio Napolitano"
   venue: "Journal of Urban Technology"
@@ -37,6 +39,7 @@
 
 - id: venturoso2025ki
   year: 2025
+  theme: industrial
   title: "KI-gestützte Workstation für die Qualitätskontrolle"
   authors: "Leonardo Venturoso, Simone Garbin, Dieter Steiner, and Dominik T Matt"
   venue: "Industry 4.0 Science"
@@ -58,6 +61,7 @@
 
 - id: ianes2021learn
   year: 2021
+  theme: elearning
   title: "Learn by distance: advice for choosing an effective and inclusive e-Learning platform"
   authors: "Dario Ianes, and Leonardo Venturoso"
   venue: "IUL Research"
@@ -77,6 +81,7 @@
 
 - id: navarini2021influence
   year: 2021
+  theme: sensing
   title: "THE INFLUENCE OF BABY SCHEMA EFFECT AND MERE EXPOSURE EFFECT ON IMPLICIT AND EXPLICIT FACE PROCESSING: A FOLLOW-UP STUDY."
   authors: "Nora Navarini, Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, Mengyu Lim, Peipei Setoh, and Gianluca Esposito"
   venue: "Experimental Psychology"
@@ -96,6 +101,7 @@
 
 - id: venturoso2019effects
   year: 2019
+  theme: sensing
   title: "Effects of baby schema and mere exposure on explicit and implicit face processing"
   authors: "Leonardo Venturoso, Giulio Gabrieli, Anna Truzzi, Atiqah Azhari, Peipei Setoh, Marc H Bornstein, and Gianluca Esposito"
   venue: "Frontiers in Psychology"

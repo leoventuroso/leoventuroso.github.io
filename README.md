@@ -26,6 +26,7 @@ make clean     # remove output/
 - `content/pages/about.md` — bio shown on the homepage
 - `content/articles/` — blog posts (one Markdown file per post, filename-date-prefixed for readability; the authoritative date is the `Date:` metadata field)
 - `content/data/publications.yaml` — publications list, including BibTeX; rendered by `plugins/publications.py` and `theme/minimal/templates/publications.html`. Set `selected: true` on an entry to surface it on the homepage.
+  Set `theme` to one of the ids in `PUBLICATION_THEMES` (`pelicanconf.py`) to place the paper in the timeline at the top of the publications page, or to two ids (`theme: [sensing, industrial]`, main one first) for work between two themes. Co-authors are read from the `authors` string.
 - `content/data/talks.yaml` — talks list; rendered by `plugins/talks.py` and `theme/minimal/templates/talks.html`. See "Adding a talk" below.
 - `content/data/press.yaml` — press coverage, grouped by project (description, project links, list of articles); rendered as the "press" section of the same `/talks/` page. The format is documented at the top of the file.
 - `content/pdf/LeonardoVenturoso_CV.pdf` — the nav "cv" link points straight at this file (no HTML CV page)

@@ -3,11 +3,23 @@
 {% block nav_active %}publications{% endblock %}
 {% block content %}
 <h1 class="sr-only">publications</h1>
+
+{# Timeline of papers and co-authors, drawn by pub-graph.js. Hidden until
+   the script runs, so without JS the list below is the whole page. #}
+<figure class="pub-graph" id="pub-graph" hidden>
+  <div class="pub-graph-canvas">
+    <svg role="group" aria-label="Timeline of my papers by year and research theme, linked to their co-authors"></svg>
+    <div class="pub-graph-tip" hidden></div>
+  </div>
+  <figcaption>Papers (filled dots) by year and research theme, linked to the people I wrote them with (open dots). Select a paper to jump to it in the list, or a co-author to highlight our papers together.</figcaption>
+</figure>
+<script type="application/json" id="pub-graph-data">{{ publications_graph }}</script>
+
 {% for year, entries in publications_by_year.items() %}
 <h2 class="section-label pub-year">{{ year }}</h2>
 <div class="posts pub-list">
   {% for pub in entries %}
-  <div class="pub-entry">
+  <div class="pub-entry" id="{{ pub.id }}">
     {% if pub.badge %}<a class="pub-badge" href="{{ pub.badge.url }}" target="_blank" rel="noopener">{{ pub.badge.label }}</a>{% endif %}
     <div class="pub-body">
       <p class="pub-title-inline">{{ pub.title }}</p>
@@ -24,4 +36,7 @@
   {% endfor %}
 </div>
 {% endfor %}
+{% endblock %}
+{% block scripts %}
+<script src="{{ SITEURL }}/theme/js/pub-graph.js?v={{ PUB_GRAPH_VERSION }}" defer></script>
 {% endblock %}

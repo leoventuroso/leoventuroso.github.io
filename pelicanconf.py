@@ -11,12 +11,18 @@ DEFAULT_LANG = "en"
 
 THEME = "theme/minimal"
 
-# Cache busting: base.html links style.css?v=<hash of its content>, so
-# browsers fetch the new stylesheet as soon as it changes instead of
-# reusing a stale cached copy with freshly deployed HTML.
-STYLE_VERSION = hashlib.sha256(
-    Path(__file__).resolve().parent.joinpath(THEME, "static/css/style.css").read_bytes()
-).hexdigest()[:10]
+
+def _asset_version(path):
+    """Short content hash of a theme static file, for cache busting."""
+    full = Path(__file__).resolve().parent.joinpath(THEME, "static", path)
+    return hashlib.sha256(full.read_bytes()).hexdigest()[:10]
+
+
+# Cache busting: templates link e.g. style.css?v=<hash of its content>, so
+# browsers fetch a changed asset right away instead of reusing a stale
+# cached copy with freshly deployed HTML.
+STYLE_VERSION = _asset_version("css/style.css")
+PUB_GRAPH_VERSION = _asset_version("js/pub-graph.js")
 
 ARTICLE_PATHS = ["articles"]
 ARTICLE_URL = "blog/{slug}/"
@@ -60,6 +66,25 @@ DELETE_OUTPUT_DIRECTORY = True
 # `publications_by_year` / `talks` / `press` into the template context of every page.
 PUBLICATIONS_DATA = "content/data/publications.yaml"
 TALKS_DATA = "content/data/talks.yaml"
+
+# Research themes for the publications timeline: one lane each, top to
+# bottom in this order (themes of current work at the bottom, next to each
+# other). Each entry in publications.yaml sets `theme` to one id, or to two
+# (`theme: [sensing, industrial]`, main one first) for work that sits between
+# them: it is drawn on the border when the two lanes are adjacent. A theme
+# with no papers yet gets no lane.
+# - sensing: the human side (eye tracking, EEG), in research or in industry
+# - industrial: AI solutions for industry, whatever the technique (CV, ML, RL)
+# `slot` picks the color (--graph-<slot> in style.css) and never changes with
+# the order, so reordering lanes keeps colors. Slots 1-5 are validated for
+# this lane order (adjacent lanes); check again if you reorder or add more.
+PUBLICATION_THEMES = [
+    {"id": "elearning", "label": "E-learning", "slot": 2},
+    {"id": "opendata", "label": "Open Data", "slot": 3},
+    {"id": "sensing", "label": "Eye tracking & EEG", "slot": 1},
+    {"id": "industrial", "label": "Industrial AI", "slot": 4},
+]
+
 PRESS_DATA = "content/data/press.yaml"
 
 PLUGIN_PATHS = ["plugins"]
